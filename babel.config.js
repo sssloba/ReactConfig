@@ -1,6 +1,6 @@
 const presets = [
   [
-    "@babel/preset-env",
+    "@babel/preset-react",
     {
       targets: {
         edge: "17",
@@ -8,7 +8,7 @@ const presets = [
         chrome: "67",
         safari: "11.1",
       },
-      useBuiltIns: "usage",
+      useBuiltIns: "build",
     },
   ],
 ];
